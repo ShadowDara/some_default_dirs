@@ -1,0 +1,17 @@
+[package]
+name = "some_default_dirs"
+version = "0.1.0"
+edition = "2024"
+authors = ["Shadowdara"]
+readme = "README.md"
+description = "Some Default paths which are not in dirs next"
+license = "MIT"
+include = ["LICENSE", "README.md", "Cargo.toml", "/src/"]
+keywords = ["dirs", "startmenu", "startdirs"]
+
+[dependencies]
+windows = { version = "0.62.2", features = [
+    "Win32_UI_Shell",
+    "Win32_Foundation",
+    "Win32_System_Com",
+] }
