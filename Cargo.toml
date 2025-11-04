@@ -8,6 +8,7 @@ description = "Some Default paths which are not in dirs next"
 license = "MIT"
 include = ["LICENSE", "README.md", "Cargo.toml", "/src/"]
 keywords = ["dirs", "startmenu", "startdirs"]
+repository = "https://github.com/shadowdara/some_default_dirs"
 
 [target.'cfg(windows)'.dependencies]
 windows = { version = "0.62.2", features = [
